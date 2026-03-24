@@ -6,15 +6,15 @@
   // Put your ad images in: /ads/ folder of your repo
   // ─────────────────────────────────────────────────────────────────────────────
 
-  var BASE_URL = 'https://faraz ahammed.github.io/FRZ-AD-SERVER/ads/';
+  var BASE_URL = 'https://farazahammed.github.io/FRZ-AD-SERVER/ads/';
 
   var ADS = [
-    { img: '91c8f416-9c1f-4cef-841a-987d25bec6d7', link: 'https://frz-games.netlify.app', label: 'frz games' },
-    { img: 'ChatGPT Image Mar 10, 2026, 11_35_36 AM', link: 'https://sslc-notes-frz.blogspot.com', label: 'frz notes sscl' },
-    { img: 'ChatGPT Image Mar 16, 2026, 10_22_54 PM', link: 'https://support-frz.netlify.app', label: 'eid' }
+    { img: '91c8f416-9c1f-4cef-841a-987d25bec6d7.png', link: 'https://frz-games.netlify.app', label: 'frz games' },
+    { img: 'ChatGPT Image Mar 10, 2026, 11_35_36 AM.png', link: 'https://sslc-notes-frz.blogspot.com', label: 'frz notes sscl' },
+    { img: 'ChatGPT Image Mar 16, 2026, 10_22_54 PM.png', link: 'https://support-frz.netlify.app', label: 'eid' }
   ];
 
-  var INACTIVITY_MS = 7000;
+  var INACTIVITY_MS = 10000;
   var SLIDE_MS      = 6000;
   var AD_ID         = 'frz-ad-overlay';
 
