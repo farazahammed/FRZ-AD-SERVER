@@ -2,7 +2,8 @@
 'use strict';
 var BASE_URL='https://farazahammed.github.io/FRZ-AD-SERVER/ads/';
 var ADS=[
-    { img: 'frzgames.png', link: 'https://frz-games.netlify.app', label: 'frz games' }
+    { img: 'frzgames.png', link: 'https://frz-games.netlify.app', label: 'frz games' },
+    { img: 'frznotes.png', link: 'https://sslc-notes-frz.blogspot.com', label: 'frz notes' }
 ];
 var INACTIVITY_MS=10000;var SLIDE_MS=6000;var AD_ID='frz-ad-overlay';
 var inactivityTimer=null,slideTimer=null,currentSlide=0,injected=false;
